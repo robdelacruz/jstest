@@ -1,15 +1,29 @@
-## About 
+## jstest
 
-Description
+A simplified frontend web development template.
 
-## Build and Install
+Uses the following web tools:
+- Tailwind CSS
+- Svelte
+- Rollup
 
+It uses `postcss` and `cssnano` to optionally compress css, if needed.
+
+`Make` is used to build rather than `npm`. No `package.json` file is used.
+
+## Usage
+
+Run once:
+
+    $ make dep
+    $ make webtools
+
+Build and test:
     $ make clean
     $ make
+    $ make serve
 
-    Run <>.
-
-## Screenshots
+See the comments in Makefile.
 
 ## Contact
     Twitter: @robdelacruz
