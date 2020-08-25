@@ -3,13 +3,13 @@
 A simplified frontend web development template.
 
 Uses the following web tools:
-- Tailwind CSS
-- Svelte
-- Rollup
+- [Tailwind CSS](https://tailwindcss.com)
+- [Svelte](https://svelte.dev)
+- [Rollup](https://rollupjs.org)
 
-It uses `postcss` and `cssnano` to optionally compress css, if needed.
+`postcss` and `cssnano` are used to optionally compress css if needed.
 
-`Make` is used to build rather than `npm`. No `package.json` file is used.
+`Make` is used to build rather than *npm*. No *package.json* file is used.
 
 ## Usage
 
