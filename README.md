@@ -19,11 +19,12 @@ Run once:
     $ make webtools
 
 Build and test:
+
     $ make clean
     $ make
     $ make serve
 
-See the comments in Makefile.
+See the comments in *Makefile*.
 
 ## Contact
     Twitter: @robdelacruz
