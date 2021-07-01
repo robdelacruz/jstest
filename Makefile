@@ -27,7 +27,7 @@ webtools:
 static/style.css: twsrc.css
 	#npx tailwind build twsrc.css -o twsrc.o 1>/dev/null
 	#npx postcss twsrc.o > static/style.css
-	npx tailwind build twsrc.css -o static/style.css 1>/dev/null
+	npx tailwind -i twsrc.css -o static/style.css 1>/dev/null
 
 static/bundle.js: $(JSFILES)
 	npx rollup -c
