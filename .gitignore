@@ -3,6 +3,7 @@
 *.map
 node_modules
 package-lock.json
+package.json
 static/style.css
 static/bundle.css
 static/bundle.js

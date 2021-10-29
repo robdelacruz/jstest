@@ -1,10 +1,9 @@
-import App from "./App.svelte";
-const app = new App({
-    target: document.querySelector("#hello1"),
+import Index from "./Index.svelte";
+const index = new Index({
+    target: document.querySelector("body"),
     props: {
-        name: "rob",
     }
 });
 
-export default app;
+export default index;
 
