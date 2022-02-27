@@ -27,6 +27,6 @@ Build and test:
 See the comments in *Makefile*.
 
 ## Contact
-    Twitter: @robdelacruz
+    Twitter: @robcomputing
     Source: http://github.com/robdelacruz
 
