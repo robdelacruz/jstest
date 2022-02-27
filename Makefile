@@ -4,16 +4,18 @@
 # 'make' to build css and js into static/
 # 'make serve' to start dev webserver
 
-JSFILES = index.js App.svelte
+NODE_VER = 14
+
+JSFILES = index.js Index.svelte
 
 all: static/style.css static/bundle.js
 
 dep:
-	sudo apt update
+	sudo apt update && apt upgrade
 	sudo apt install curl software-properties-common
-	curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+	curl -fsSL https://deb.nodesource.com/setup_$(NODE_VER).x | sudo bash -
 	sudo apt install nodejs
-	sudo npm --force install -g npx
+	sudo npm install -g npx
 
 webtools:
 	npm install --save-dev tailwindcss

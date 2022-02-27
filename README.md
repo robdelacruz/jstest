@@ -1,6 +1,6 @@
-## jstest
+## svelte-starter
 
-A simplified frontend web development template.
+A simplified Svelte frontend web development template.
 
 Uses the following web tools:
 - [Tailwind CSS](https://tailwindcss.com)
